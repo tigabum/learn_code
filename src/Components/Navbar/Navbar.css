@@ -55,6 +55,9 @@
   background-color: white;
   color: black;
 }
+/* .signin {
+  display: none;
+} */
 .humburger {
   border: 0;
   height: 40px;
@@ -113,13 +116,13 @@
 }
 
 @media screen and (max-width: 525px) {
-  /* .humburger {
-    display: block;
-  } */
-  /* .navigation-menu ul {
-    display: none;
-  } */
   .buttons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 259px) {
+  .humburger {
     display: none;
   }
 }
