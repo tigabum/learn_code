@@ -1,0 +1,125 @@
+.navigation {
+  height: 60px;
+  width: 100%;
+  background-color: #0196ad;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  color: white;
+  box-shadow: 0 2px 2px 2px rgba(2, 35, 38, 0.23);
+}
+.brand-name {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+/* .navigation-menu {
+  margin-right: auto;
+} */
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+}
+/* .buttons {
+  margin-left: auto;
+} */
+.buttons {
+  /* margin-right: 1rem; */
+}
+.buttons button {
+  margin: 0 1rem;
+  font-size: 0.938rem;
+  color: white;
+  font-weight: 500;
+  line-height: 1.2;
+  background-color: #0196ad;
+  padding: 12px 24px;
+  border-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: black;
+}
+.humburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #0196ad;
+  position: absolute;
+  top: 25%;
+  right: 40px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  display: none;
+}
+
+.humburger:hover {
+  background-color: #1e4348;
+}
+
+@media screen and (max-width: 768px) {
+  .humburger {
+    display: block;
+  }
+  .navigation-menu ul {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    /* color: white; */
+    flex-direction: column;
+    width: 40%;
+    height: 500px;
+    background-color: #0196ad;
+    transition: background-color 0.2s ease-in-out;
+
+    /* border-top: 1px solid black; */
+  }
+  .navigation-menu li {
+    text-align: left;
+    padding: 0.98rem;
+  }
+  .navigation-menu li a {
+    color: white;
+    width: 100%;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+  .buttons {
+    margin-right: 5rem;
+  }
+  .create {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  /* .humburger {
+    display: block;
+  } */
+  /* .navigation-menu ul {
+    display: none;
+  } */
+  .buttons {
+    display: none;
+  }
+}

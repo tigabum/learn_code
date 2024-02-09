@@ -1,9 +1,11 @@
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
     <div className="app">
-      <header className="header">
+      <Navbar />
+      {/* <header className="header">
         <div className="headerLeft">
           <div className="logo">Your Logo</div>
           <div className="headerText">
@@ -23,7 +25,7 @@ const App = () => {
           <button className="button create">Create</button>
           <button className="button">Sign In</button>
         </div>
-      </header>
+      </header> */}
       <div className="body">
         <section className="topSection">
           <div className="backgroundImage"></div>
