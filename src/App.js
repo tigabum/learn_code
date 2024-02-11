@@ -23,6 +23,14 @@ const App = () => {
             <img src="image1.jpg" alt="Image 1" />
             <div className="imageText">Text for Image 1</div>
           </div>
+          <div className="imageWithText">
+            <img src="image1.jpg" alt="Image 1" />
+            <div className="imageText">Text for Image 2</div>
+          </div>
+          <div className="imageWithText">
+            <img src="image1.jpg" alt="Image 1" />
+            <div className="imageText">Text for Image 3</div>
+          </div>
           {/* Repeat the above structure for the other three images */}
         </section>
         <section className="bottomSection">
