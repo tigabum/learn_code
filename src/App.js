@@ -5,27 +5,6 @@ const App = () => {
   return (
     <div className="app">
       <Navbar />
-      {/* <header className="header">
-        <div className="headerLeft">
-          <div className="logo">Your Logo</div>
-          <div className="headerText">
-            <ul className="listItem">
-              <li className="list">Learn</li>
-              <li className="list">Teach</li>
-              <li className="list">Projects</li>
-              <li className="list">Stats</li>
-              <li className="list">Help Us</li>
-              <li className="list">Incubator</li>
-              <li className="list">About</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="buttons">
-          <button className="button create">Create</button>
-          <button className="button">Sign In</button>
-        </div>
-      </header> */}
       <div className="body">
         <section className="topSection">
           <div className="backgroundImage"></div>
@@ -43,6 +22,14 @@ const App = () => {
           <div className="imageWithText">
             <img src="image1.jpg" alt="Image 1" />
             <div className="imageText">Text for Image 1</div>
+          </div>
+          <div className="imageWithText">
+            <img src="image1.jpg" alt="Image 1" />
+            <div className="imageText">Text for Image 2</div>
+          </div>
+          <div className="imageWithText">
+            <img src="image1.jpg" alt="Image 1" />
+            <div className="imageText">Text for Image 3</div>
           </div>
           {/* Repeat the above structure for the other three images */}
         </section>
