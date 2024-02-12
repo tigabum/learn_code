@@ -1,0 +1,36 @@
+.middleSection {
+  /* display: flex;
+  justify-content: space-between; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  /* background-color: antiquewhite; */
+}
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(235, 221, 202); */
+}
+.number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.stat1,
+.stat2,
+.stat3,
+.stat4,
+.stat5 {
+  cursor: pointer;
+}
+.textWithImage {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  padding: 5px 15px;
+}
+.imageWithText {
+  text-align: center;
+  border: 1px solid gray;
+  width: 400px;
+  height: 400px;
+}
