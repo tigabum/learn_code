@@ -22,15 +22,6 @@
 .stat5 {
   cursor: pointer;
 }
-.textWithImage {
-  display: flex;
-  justify-content: space-between;
-  /* background-color: aquamarine; */
-  padding: 5px 15px;
-}
-.imageWithText {
-  text-align: center;
-  border: 1px solid gray;
-  width: 400px;
-  height: 400px;
+.statistics > div > p:hover {
+  color: rgb(8, 126, 126);
 }
