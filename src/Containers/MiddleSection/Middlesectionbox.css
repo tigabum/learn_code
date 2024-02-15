@@ -1,0 +1,37 @@
+.textWithImage {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  padding: 5px 15px;
+}
+.boxContainer {
+  position: relative;
+  text-align: center;
+  width: 400px;
+  height: 350px;
+}
+img {
+  object-fit: cover;
+  width: 400px;
+  height: 200px;
+}
+
+.imageText {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(87, 211, 233);
+  color: rgb(255, 255, 255);
+  width: 400px;
+  height: 200px;
+  top: 110px;
+  opacity: 0.9;
+  line-height: 0.8;
+  font-weight: bold;
+}
+p {
+  cursor: pointer;
+}
+.imageText > p:hover {
+  text-decoration: underline;
+}
