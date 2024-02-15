@@ -1,4 +1,5 @@
 import React from "react";
+import MiddleSectionBox from "../../Containers/MiddleSection/Middlesectionbox";
 import "./Middlesection.css";
 const Middlesection = () => {
   return (
@@ -37,24 +38,7 @@ const Middlesection = () => {
           </p>
         </div>
       </div>
-      <div className="textWithImage">
-        <div className="imageWithText">
-          <img src="image1.jpg" alt="Image 1" />
-          <div className="imageText">Text for Image 1</div>
-        </div>
-        <div className="imageWithText">
-          <img src="image1.jpg" alt="Image 1" />
-          <div className="imageText">Text for Image 2</div>
-        </div>
-        <div className="imageWithText">
-          <img src="image1.jpg" alt="Image 1" />
-          <div className="imageText">Text for Image 3</div>
-        </div>
-        <div className="imageWithText">
-          <img src="image1.jpg" alt="Image 1" />
-          <div className="imageText">Text for Image 4</div>
-        </div>
-      </div>
+      <MiddleSectionBox />
     </div>
   );
 };
